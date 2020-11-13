@@ -1,0 +1,8 @@
+proxy:
+    secretToken: "e541e09ad78780d07897c90ddac7bd60202016ff062017ffa558bead30b03956" 
+
+singleuser:
+    image:
+        name: jupyter/datascience-notebook
+        tag: 177037d09156
+    defaultUrl: "/lab"
