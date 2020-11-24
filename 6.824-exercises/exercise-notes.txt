@@ -1,3 +1,4 @@
 crawler.go
 ~~~~~~~~~~
+Other solutions to crawler.go even one with chan is available at https://pdos.csail.mit.edu/6.824/notes/crawler.go
 
