@@ -1,0 +1,5 @@
+version: 0.0.1
+history:
+  # <version>:<message>
+  - 0.0.1: "something as message"
+  - 0.0.2: "something else as message"
