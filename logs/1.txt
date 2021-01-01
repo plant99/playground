@@ -1,0 +1,15 @@
+1/1/21)
+
+
+/tmp files are cleared on reboot, they could be controlled by /etc/init/mounted-tmp.conf prior to 14.04. The default value of $TMPTIME is 0, which means every file and directory in /tmp gets deleted. $TMPTIME is an environment variable defined in /etc/default/rcS.
+
+For 16.04 , man "tmpfiles.d"
+<<
+#/etc/tmpfiles.d/tmp.conf
+
+d /tmp 1777 root root 20d
+>>
+
+Overlay file systems are heirarchical union of directories with read only permissions for lower level directory, and write permissions for same tier directories.
+
+https://dev.to/napicella/how-are-docker-images-built-a-look-into-the-linux-overlay-file-systems-and-the-oci-specification-175n
