@@ -13,3 +13,10 @@ d /tmp 1777 root root 20d
 Overlay file systems are heirarchical union of directories with read only permissions for lower level directory, and write permissions for same tier directories.
 
 https://dev.to/napicella/how-are-docker-images-built-a-look-into-the-linux-overlay-file-systems-and-the-oci-specification-175n
+
+
+2-3/1/21)
+
+https://www.usenix.org/conference/atc20/presentation/bittman
+
+NVM-e IO are fast, faster than RAMs, thus traditional applications don't work to the full extent of IO speed because write/read is app -> RAM -> HDD, but for NVMe(s) they can be used as ephemeral and persistent storage.
