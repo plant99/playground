@@ -20,3 +20,10 @@ https://dev.to/napicella/how-are-docker-images-built-a-look-into-the-linux-overl
 https://www.usenix.org/conference/atc20/presentation/bittman
 
 NVM-e IO are fast, faster than RAMs, thus traditional applications don't work to the full extent of IO speed because write/read is app -> RAM -> HDD, but for NVMe(s) they can be used as ephemeral and persistent storage.
+
+
+4/1/21)
+
+https://github.com/hexops/dockerfile
+
+TIL that when random docker images are encountered using something like tini: https://github.com/hexops/dockerfile#use-tini-as-your-entrypoint helps to figure out what is the image about.
