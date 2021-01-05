@@ -27,3 +27,10 @@ NVM-e IO are fast, faster than RAMs, thus traditional applications don't work to
 https://github.com/hexops/dockerfile
 
 TIL that when random docker images are encountered using something like tini: https://github.com/hexops/dockerfile#use-tini-as-your-entrypoint helps to figure out what is the image about.
+
+5/1/21)
+
+https://blog.gojekengineering.com/how-we-reduced-skyrocketing-cpu-usage-5d9d07a3ff6e
+https://pythonspeed.com/articles/python-multiprocessing/
+
+So SIGTERM sent by ansible  wasn't being responded to and the child processes still exists. This is a problem with how subprocesses work in Python2, described better in latter blogpost.
