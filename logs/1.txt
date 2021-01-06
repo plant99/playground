@@ -34,3 +34,9 @@ https://blog.gojekengineering.com/how-we-reduced-skyrocketing-cpu-usage-5d9d07a3
 https://pythonspeed.com/articles/python-multiprocessing/
 
 So SIGTERM sent by ansible  wasn't being responded to and the child processes still exists. This is a problem with how subprocesses work in Python2, described better in latter blogpost.
+
+6/1/21)
+
+https://sudhir.io/understanding-connections-pools/
+
+On how application/database servers handle connection. Mysql opens threads, postgres opens processes, redis does something like Node, handling one request at a time from an event loop.
