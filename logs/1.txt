@@ -40,3 +40,12 @@ So SIGTERM sent by ansible  wasn't being responded to and the child processes st
 https://sudhir.io/understanding-connections-pools/
 
 On how application/database servers handle connection. Mysql opens threads, postgres opens processes, redis does something like Node, handling one request at a time from an event loop.
+
+7/1/21)
+https://pdos.csail.mit.edu/6.824/papers/gfs.pdf
+GFS has a nice write pattern. To make concurrent writes, it uses snapshot and record. Then merge it with time, eventually reaching a consistent state. Since it's assumed that most of the 
+writes are append.
+
+8/1/21)
+IOPS or input, output per second can be assesed for different parameters namely random reads/writes and sequential read/writes 
+https://en.wikipedia.org/wiki/IOPS
