@@ -49,3 +49,8 @@ writes are append.
 8/1/21)
 IOPS or input, output per second can be assesed for different parameters namely random reads/writes and sequential read/writes 
 https://en.wikipedia.org/wiki/IOPS
+
+11/1/21)
+https://en.wikipedia.org/wiki/Sparse_file
+Sparse files are a smart way for linux ~= lazy loading in GFS. OS saves empty space as metadata, which saves a lot of space.
+
